@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+FROM php:8.1-apache
+COPY . /var/www/html/
+=======
 ﻿FROM php:8.2-apache
 
 # Install PDO MySQL
@@ -16,4 +20,5 @@ COPY . /var/www/html/
 RUN chown -R www-data:www-data /var/www/html && \
     chmod -R 755 /var/www/html
 
+>>>>>>> 572c884 (first)
 EXPOSE 80
