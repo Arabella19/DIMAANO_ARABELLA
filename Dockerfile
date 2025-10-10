@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-FROM php:8.1-apache
-COPY . /var/www/html/
-=======
-﻿FROM php:8.2-apache
+FROM php:8.2-apache
 
 # Install PDO MySQL
 RUN docker-php-ext-install pdo pdo_mysql
@@ -15,10 +11,4 @@ RUN sed -i '/<Directory \/var\/www\/>/,/<\/Directory>/ s/AllowOverride None/Allo
 
 # Copy app files
 COPY . /var/www/html/
-
-# Fix permissions (combined into one RUN)
-RUN chown -R www-data:www-data /var/www/html && \
-    chmod -R 755 /var/www/html
-
->>>>>>> 572c884 (first)
 EXPOSE 80
