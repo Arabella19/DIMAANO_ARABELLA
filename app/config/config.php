@@ -79,7 +79,7 @@ $config['ENVIRONMENT']             = 'production';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				=  'https://dimaano-arabella-19.onrender.com/';
+$config['base_url'] 				=  'http://localhost/Labvalust/Dimaano_Arabella/';
 
 /*
 |--------------------------------------------------------------------------
