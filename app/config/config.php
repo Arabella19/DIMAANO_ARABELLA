@@ -79,7 +79,7 @@ $config['ENVIRONMENT']             = 'production';
 | WARNING: You MUST set this value!
 |
 */
-$config['base_url'] 				= getenv('BASE_URL') ?: 'http://localhost/';
+$config['base_url'] 				=  'http://localhost/Labvalust/Dimaano_Arabella/';
 
 /*
 |--------------------------------------------------------------------------
